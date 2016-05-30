@@ -224,12 +224,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #cf4a37;
+  color: white;
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: none;
+  border-bottom: white solid 1px; }
 
 a:hover {
-  border-bottom: #cf4a37 solid 1px; }
+  border-bottom: #cf4a37 solid 0px; }
 
 :focus {
   background-color: transparent;
@@ -310,7 +311,7 @@ header {
 @media (min-width: 1200px) {
   .title-block {
     width: 30vw;
-    bottom: 7rem;
+    bottom: 5.5rem;
     left: 6rem; } }
 @media (min-width: 300px) {
   .title-block h1 {
@@ -331,7 +332,7 @@ header {
     .intro-block {
       position: absolute;
       width: 50vw;
-      bottom: 6rem;
+      bottom: 2rem;
       right: 6rem;
       background: none; } }
   .intro-block h2 {
@@ -391,9 +392,9 @@ header {
     margin: 0;
     margin-left: 0;
     background: #ccc;
-    height: 33.33vw;
-    width: 33.3vw !important;
-    max-height: 33.3333vw;
+    height: 33.333vw;
+    width: 33.333vw !important;
+    max-height: 33.333vw;
     overflow: hidden;
     padding: 3.5rem; } }
 @media (min-width: 1200px) {
@@ -440,6 +441,9 @@ header {
 .content__block--blue {
   background: #1D40BF;
   color: #fff; }
+.content__block ul {
+  padding: 0;
+  list-style-position: inside; }
 @media (min-width: 300px) {
   .content__block:nth-of-type(1) {
     -webkit-box-ordinal-group: 2;

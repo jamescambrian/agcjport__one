@@ -23,12 +23,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $rail-red;
-  cursor: pointer;
+  color: white;
+  cursor:pointer;
   text-decoration: none;
+  border-bottom: white solid 1px
 }
 a:hover {
-  border-bottom: $rail-red solid 1px;
+  border-bottom: $rail-red solid 0px;
 }
 :focus{
   background-color: transparent;
