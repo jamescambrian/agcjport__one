@@ -10,7 +10,7 @@ h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 @media (min-width: 550px) {
   h1 { font-size: 5.8rem; }
 }
-p {
+p,li {
     margin-top: 0;
     font-family: $font-para;
     font-weight: 400;

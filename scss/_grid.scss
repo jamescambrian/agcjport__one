@@ -14,13 +14,13 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 85vw;
     padding: 0; }
 }
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 80vw; }
   .column,
   .columns {
     margin-left: 0%; }
@@ -75,7 +75,7 @@
 }
 //overrides
 .container{
-  @media (#{$bp-larger-than-mobile}){width: 100%;}
+  @media (#{$bp-larger-than-mobile}){width: 100vw;}
 }
 
 //overrides the hd settings to allow display of seperate paragraph
